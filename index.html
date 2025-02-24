@@ -42,9 +42,28 @@
                 myfruitcolorunique: mycolor,
                 size: [bg, sm, md],
             } = fruit;
-            console.log(`Fruit is ${mycolor} and its ${bg} size`);
+            // console.log(`Fruit is ${mycolor} and its ${bg} size`);
 
-            
+            // function sum(){} //normal fn
+            // function (){} //anonymous fn
+
+            // ARROW FUNCTIONS   ()=>{}
+            const s = (a = 0, b = 1) => {
+                return a + b;
+            };
+
+            //single argument
+            const print = (n) => n;
+
+            const print2 = (n) => {
+                return n;
+            };
+
+            console.log(print(5));
+
+            // console.log(s(1, 2)); // 3
+            // console.log(s(1)); // 1
+            // console.log(s()); // 0
         </script>
     </body>
 </html>
