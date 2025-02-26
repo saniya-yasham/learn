@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Class 4</title>
+        <!-- flipkaet page 1 page 2 SPA - single page application = without refreshing the page we can change the content page 1 -->
+        <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+        <!-- Don't use this in production: -->
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+        <h1>React Start</h1>
+
+        <div id="root"></div>
+
+        <script type="text/babel">
+            const MyApp = () => {
+                return (
+                    <>
+                        <h1>Test</h1>
+                        <h2>This is H2</h2>
+                    </>
+                );
+            };
+
+            const MyApp2 = n => <h1>Im single line</h1>;
+
+            const root = document.getElementById("root"); //it targets a tag with id root
+            // ReactDOM.createRoot(root).render(MyApp());
+            // ReactDOM.createRoot(root).render( <MyApp></MyApp> );
+            ReactDOM.createRoot(root).render(<MyApp2 />);
+        </script>
+    </body>
+</html>
+
+<!-- JSX = looks like HTML, HTML like syntax
+JSX => React => render() => HTML Browser
+
+
+render = Babel()
+
+modern javascript convert old javascript = old browsers -->

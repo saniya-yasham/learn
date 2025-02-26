@@ -1,4 +1,2 @@
-Create a object fruit
-and destructure it, and console its values, try nested destructuring and rename also,
-
-make arrow fn
+Read = What is Virtual DOM and how it works
+Make a react component
