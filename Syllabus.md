@@ -1,4 +1,5 @@
 # Variables
+
     //! Primitive Data Types (Basic types)
     // String → "Hello"
     // Number → 42, 3.14
@@ -11,10 +12,14 @@
     // Array → [1, 2, 3, 4]
     // Function → function sayHi() {}
 
-# Functions
-# template literals
-# destructuring
+# Functions ()=>{}
+
+# template literals - `${}`
+
+# destructuring - const [a,b] = obj
+
 # rest and spread operator ...
-# classes
+
 # promises
+
 # async await
