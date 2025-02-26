@@ -12,7 +12,8 @@ function sum(a, b, ...c) {
     return (a = 1), (b = 7), (c = [1, 3, 4, 5, 6, 5]);
 }
 
-// console.log(sum(1, 7, 1, 3, 4, 5, 6, 5));
+// in call - its argument
+console.log(sum(1, 7, 1, 3, 4, 5, 6, 5));
 // console.log(sum(1, 7, 1, 3));
 // console.log(sum(1, 7, 1, 3));
 // console.log(sum(1, 7));
